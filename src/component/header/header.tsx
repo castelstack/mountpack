@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import logo from "../../assets/img/bg-logo.png";
 import driot from "../../assets/img/hommeDroit.png";
 import max from "../../assets/img/SAVEMAX.png";
 import Gauche from "../../assets/img/hommeGauche.png";
@@ -14,7 +15,7 @@ const Header = () => {
     <div>
       <div className='header-card'>
         <img src={driot} alt='' />
-        <div className='logo'>
+        <div className='logo' style={{ backgroundImage: `url(${logo})`, backgroundRepeat:"no-repeat", }}>
           <Link to='/'>
             <img src={max} alt='' />
           </Link>
