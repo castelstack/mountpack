@@ -1,0 +1,30 @@
+.header-card {
+    border: 2px solid #000000;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.19);
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    width: auto;
+}
+
+.header-card .logo {
+    background-size: cover;
+    padding: 15px 63px;
+}
+
+.header-menu {
+    padding-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu button {
+    padding: 5px 14px;
+    margin: 0 10px;
+    box-shadow: inset -2px -2px #0a0a0a, inset 1px 1px #fff, inset -3px -3px grey, inset 2px 2px #dfdfdf;
+    font-family: 'Alef', sans-serif;
+    font-weight: bold;
+    color: #4e5981;
+}
