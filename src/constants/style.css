@@ -279,10 +279,18 @@ a {
 #manual .menu {
     padding: 0 50px;
 }
-.start-menu-item td {
-    font-weight: bold;
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:.5rem;
 }
-
+.start-menu-item td{
+    font-size: 1rem;
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+}
 .start-menu-item.active table {
     background-color: #c1c1c1;
 }
@@ -337,7 +345,7 @@ a {
 .start-menu ul li ul {
     display: block;
     position: absolute;
-    right: -393px;
+    right: -373px;
     background-color: #e4e4e4;
     padding: 15px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.24), 0 -1px 1px #666, inset -2px -2px 1px rgba(0, 0, 0, 0.5), inset 2px 2px 1px rgba(255, 255, 255, 0.75);
@@ -377,6 +385,10 @@ a {
     height: 1px;
     margin: 0 auto;
     box-shadow: 10px 10px 5px transparent, 0 -1px 1px #666, inset -2px -2px 1px transparent, inset 2px 2px 1px transparent;
+}
+.manunal-tab{
+display: flex;
+align-items: center;
 }
 
 #roadmap {
