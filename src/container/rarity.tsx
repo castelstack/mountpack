@@ -39,7 +39,7 @@ const Rarity = () => {
                         </label>
                         <input id='text18' type='text' />
                       </div>
-                      <button className='bottonn'>CHECK RARITY</button>
+                      <button >CHECK RARITY</button>
                       <div className='separator'></div>
                       <div className='field-row-stacked'>
                         <label htmlFor='text19'>Rarity 1 to 10000</label>
