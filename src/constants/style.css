@@ -279,6 +279,9 @@ a {
 #manual .menu {
     padding: 0 50px;
 }
+.start-menu-item td {
+    font-weight: bold;
+}
 
 .start-menu-item.active table {
     background-color: #c1c1c1;
@@ -300,6 +303,7 @@ a {
     padding: 10px 5px;
     font-family: 'Raleway', sans-serif;
     font-size: 3rem;
+    font-weight: 900;
     line-height: 1;
 }
 
@@ -331,7 +335,7 @@ a {
 }
 
 .start-menu ul li ul {
-    display: none;
+    display: block;
     position: absolute;
     right: -393px;
     background-color: #e4e4e4;
