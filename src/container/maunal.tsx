@@ -38,7 +38,7 @@ const Maunal = () => {
                 <span>SAVE MAX</span>
               </div>
               <ul>
-                {maunalData.map((el) => (
+                {/* {maunalData.map((el) => (
                   <li className='start-menu-item' key={el.id}>
                     <table>
                       <tr onClick={handleOpen}>
@@ -60,7 +60,7 @@ const Maunal = () => {
                       ""
                     )}
                   </li>
-                ))}
+                ))} */}
                 <li className='start-menu-item'>
                   <table>
                     <tr onClick={handleOpen}>
