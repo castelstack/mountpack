@@ -113,8 +113,18 @@ a {
 
 #about .content {
     display: flex;
+    width: 100%;
 }
-
+.heading{
+    font-family:'PixelCondensed', sans-serif;
+    font-weight: bold;
+    font-size: .5rem;
+}
+.aboutText{
+    font-family:'PixelSanss', sans-serif;
+    font-weight: 0.9rem;
+    font-size: .5rem;
+}
 .about-me {
     width: 100%;
     margin-left: -75px;
@@ -122,7 +132,7 @@ a {
 }
 
 .about-me .window {
-    width: calc(100% - 115px);
+    width: 100%;
     padding: 15px;
     padding-left: 100px;
 }

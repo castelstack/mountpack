@@ -21,3 +21,33 @@ code {
   font-family:  'Caladea', serif,'DM Sans', sans-serif,source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'BelweLtBTLight';
+  src: local('BelweLtBTLight'), url(./fonts/BelweLtBTLight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'BelweMediumBT';
+  src: local('BelweMediumBT'), url(./fonts/BelweMediumBT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bahnschrift';
+  src: local('Bahnschrift'), url(./fonts/BLADRMF_.TTF) format('truetype');
+}
+@font-face {
+  font-family: 'Bahnschrift';
+  src: local('Bahnschrift'), url(./fonts/Caladea-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PixelCondensed';
+  src: local('PixelCondensed'), url(./fonts/PixelSansSerifCondensed.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PixelSans';
+  src: local('PixelSans'), url(./fonts/Pixel_Sans_Serif.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PixelSanss';
+  src: local('PixelSanss'), url(./fonts/w95fa.woff) format('woff');
+}

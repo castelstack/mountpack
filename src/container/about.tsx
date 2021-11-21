@@ -27,8 +27,8 @@ const About = () => {
           <div className='about-me'>
             <div className='window no-draggable'>
               <div className='window-body'>
-                <h1>Hi everyone I’m Max !</h1>
-                <p>
+                <h1 className='heading'>Hi everyone I’m Max !</h1>
+                <p className='aboutText'>
                   First of all you have to understand that my life has been{" "}
                   <br /> a nightmare since this crypto thing, they were all
                   trying <br /> to rekt me back and forth leaving me with
@@ -36,18 +36,18 @@ const About = () => {
                   literally bullied <br /> by this market…
                 </p>
                 <br />
-                <h1>
+                <h1 className='heading'>
                   I’ve been working on this <br /> projects for months !
                 </h1>
-                <p>
+                <p className='aboutText'>
                   I think I’m ready to show it to y’all !! I did everything I
                   could <br /> to get myself out of that vicious circle and I
                   finally feel that <br /> this is the right timing to make
                   things change ! <br /> Let me introduce you to my world,
                 </p>
                 <br />
-                <h1>I need your help people !</h1>
-                <p>
+                <h1 className='heading'>I need your help people !</h1>
+                <p className='aboutText'>
                   We have to spread the word and let know every Max <br /> on
                   this planet that we’re all going to make it ! <br /> We’re
                   seeing the end of this long road and we are going to <br />{" "}
